@@ -42,6 +42,10 @@ section#personal, section#visual, section#video {
   margin-top: 22px;
   grid-gap: 30px;
 }
+iframe {
+  border-width: 0px;
+}
+
 @media screen and (max-width: 800px) {
   section#personal, section#visual, section#video {
     grid-template-columns: 1fr;
